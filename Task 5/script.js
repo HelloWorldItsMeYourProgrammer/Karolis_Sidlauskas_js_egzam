@@ -34,6 +34,5 @@ const adults = users.filter(function filterAdults(users) {
     return users;
   }
 })
-console.log(adults);
 
 

@@ -21,12 +21,19 @@ const users = [
 ];
 
 
-
+// 1 užduotis
 users.filter(function filterDogOwners(users) {
   if(users.hasDog===true){
   return users;
   }
 })
 
+// 2 užduotis
+const adults = users.filter(function filterAdults(users) {
+  if(users.age >= 18){
+    return users;
+  }
+})
+console.log(adults);
 
 

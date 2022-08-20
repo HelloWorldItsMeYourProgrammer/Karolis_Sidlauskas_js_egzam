@@ -24,7 +24,7 @@ const users = [
 
 users.filter(function filterDogOwners(users) {
   if(users.hasDog===true){
-  console.log(users);
+  return users;
   }
 })
 

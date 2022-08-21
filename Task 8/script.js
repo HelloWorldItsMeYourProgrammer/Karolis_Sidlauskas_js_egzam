@@ -9,11 +9,24 @@ division(a, b) - priima du skaičius ir grąžina jų dalybos rezultatą;
 function Calculator (a, b) {
     this.a = a;
     this.b = b;
-    this.aritmetika = function () {
-        alert("suma: " + (a+b) + " atimtis: " + (a-b) + " daugyba: " + (a*b) + " dalyba: " + (a/b));
+    this.sum = function () {
+        return (a+b);
     }
+    this.substraction = function () {
+        return (a-b);
+    }
+    this.multiplication = function () {
+        return (a*b);
+    }
+    this.division = function () {
+        return (a/b);
+    }
+        //  + " atimtis: " + (a-b) + " daugyba: " + (a*b) + " dalyba: " + (a/b));
+
 }
+
+// TEST
 
 const myCalculator = new Calculator (3, 18);
 
-myCalculator.aritmetika();
+console.log(myCalculator.sum(), myCalculator.substraction(), myCalculator.multiplication(), myCalculator.division());

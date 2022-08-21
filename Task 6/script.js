@@ -27,3 +27,6 @@ users.forEach(function getUserAverageAge(users){
 })
 
 // 2 užduotis
+const newArr = users.map(function getUsersNames(users){
+  return users.name;
+})

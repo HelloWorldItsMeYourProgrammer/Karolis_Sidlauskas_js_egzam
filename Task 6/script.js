@@ -22,6 +22,8 @@ const users = [
 
 // 1 užduotis
 let age = 0;
-const AgeSum = users.forEach(function getUserAverageAge(users){
+users.forEach(function getUserAverageAge(users){
   return AverageAge = ((age = age + users.age)/9);
 })
+
+// 2 užduotis

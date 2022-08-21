@@ -12,4 +12,4 @@ const audi = {
 };
 
 
-console.log(Object.keys(audi));
+Object.keys(audi);

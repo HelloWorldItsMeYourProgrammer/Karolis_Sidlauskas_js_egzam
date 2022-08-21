@@ -21,7 +21,6 @@ function Calculator (a, b) {
     this.division = function () {
         return (a/b);
     }
-        //  + " atimtis: " + (a-b) + " daugyba: " + (a*b) + " dalyba: " + (a/b));
 
 }
 

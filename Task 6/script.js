@@ -19,3 +19,9 @@ const users = [
   { id: '8', name: 'Simon Peterson', age: 30 },
   { id: '9', name: 'Daniel Cane', age: 51 },
 ];
+
+// 1 užduotis
+let age = 0;
+const AgeSum = users.forEach(function getUserAverageAge(users){
+  return AverageAge = ((age = age + users.age)/9);
+})

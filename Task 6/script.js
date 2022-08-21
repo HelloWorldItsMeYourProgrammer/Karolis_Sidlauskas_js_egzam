@@ -19,3 +19,14 @@ const users = [
   { id: '8', name: 'Simon Peterson', age: 30 },
   { id: '9', name: 'Daniel Cane', age: 51 },
 ];
+
+// 1 užduotis
+let age = 0;
+users.forEach(function getUserAverageAge(users){
+  return AverageAge = ((age = age + users.age)/9);
+})
+
+// 2 užduotis
+const newArr = users.map(function getUsersNames(users){
+  return users.name;
+})
